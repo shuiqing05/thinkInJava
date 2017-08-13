@@ -1,4 +1,4 @@
-package thinkInJava;
+package shuiqing.com;
 
 public class SerialNumberGenerator {
 	private static volatile int serialNumber = 0;

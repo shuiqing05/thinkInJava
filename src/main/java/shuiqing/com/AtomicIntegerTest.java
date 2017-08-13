@@ -1,4 +1,4 @@
-package thinkInJava;
+package shuiqing.com;
 
 import java.util.Timer;
 import java.util.TimerTask;

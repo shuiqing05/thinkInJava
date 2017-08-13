@@ -1,4 +1,4 @@
-package thinkInJava;
+package shuiqing.com;
 
 public abstract class IntGenerator {
 	private volatile boolean canceled = false;

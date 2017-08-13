@@ -1,4 +1,4 @@
-package thinkInJava;
+package shuiqing.com;
 
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;

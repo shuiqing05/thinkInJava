@@ -1,4 +1,4 @@
-package thinkInJava;
+package shuiqing.com;
 
 public class EvenGenerator extends IntGenerator{
 

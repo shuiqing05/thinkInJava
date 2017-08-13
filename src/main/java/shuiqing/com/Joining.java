@@ -1,4 +1,4 @@
-package thinkInJava;
+package shuiqing.com;
 
 class Sleeper extends Thread{
 	private int duration;
