@@ -6,7 +6,6 @@ import java.util.concurrent.ThreadFactory;
 
 class ExceptionThread2 implements Runnable {
 
-	@Override
 	public void run() {
 		Thread t = Thread.currentThread();
 		System.out.println("Run() by "+t);
@@ -18,7 +17,6 @@ class ExceptionThread2 implements Runnable {
 
 class MyUncaughtExceptionHandler implements Thread.UncaughtExceptionHandler {
 
-	@Override
 	public void uncaughtException(Thread t, Throwable e) {
 		System.out.println("caught "+e);
 	}
@@ -27,7 +25,6 @@ class MyUncaughtExceptionHandler implements Thread.UncaughtExceptionHandler {
 
 class HandlerThreadFactory implements ThreadFactory {
 
-	@Override
 	public Thread newThread(Runnable r) {
 		System.out.println(this+" creating new Thread");
 		Thread t = new Thread(r);
